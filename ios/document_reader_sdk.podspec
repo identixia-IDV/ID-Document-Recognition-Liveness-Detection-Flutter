@@ -25,7 +25,7 @@ Identixia Document Reader SDK — on-device ID / passport / DL recognition.
     FileUtils.mkdir_p(fw_dir)
     zip = File.join(fw_dir, 'docsdk.xcframework.zip')
     system('curl', '-fsSL', '--connect-timeout', '8', '--retry', '1', '-o', zip,
-           'https://github.com/identixia-IDV/ID-Document-Recognition-Liveness-Detection-iOS/releases/download/v1.0.0/docsdk.xcframework.zip')
+           'https://github.com/identixia-IDV/ID-Document-Recognition-Liveness-Detection-iOS/releases/latest/download/docsdk.xcframework.zip')
     system('unzip', '-o', '-q', zip, '-d', fw_dir) if File.file?(zip)
   end
 

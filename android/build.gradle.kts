@@ -75,7 +75,7 @@ dependencies {
                 ant.invokeMethod(
                     "get",
                     mapOf(
-                        "src" to "https://github.com/identixia-IDV/ID-Document-Recognition-Liveness-Detection-Android/releases/download/v1.0.0/documentreadersdk.aar",
+                        "src" to "https://github.com/identixia-IDV/ID-Document-Recognition-Liveness-Detection-Android/releases/latest/download/documentreadersdk.aar",
                         "dest" to aar.absolutePath,
                     ),
                 )
